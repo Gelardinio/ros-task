@@ -29,6 +29,7 @@ ENV RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 RUN echo "source /opt/ros/$ROS_DISTRO/setup.bash" >> /root/.bashrc
 
 ENV WORKSPACE_PATH=/root/workspace
+ENV LIBGL_DRI3_DISABLE=1
 
 COPY workspace/ $WORKSPACE_PATH/src/
 
