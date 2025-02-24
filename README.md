@@ -29,10 +29,7 @@ With the parameters of (10, 10, 1.57) for x, y, and theta respectively, we see i
 
 ## Demo Video
 
-<video width="640" controls>
-  <source src="assets/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/de59bfe3-4223-4264-886c-e4e2adbc1893
 
 ## Results of estimated error based on /odom for (10, 10, 1.57)
 This prepresents the control errors and values, stating the measured values from the /odom topic over time compared to the target pose. The graphs below illustrate the angular and euclidean errors recorded at 20ms intervals (each represented by an increment of 1 index).
